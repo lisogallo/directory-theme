@@ -1,4 +1,4 @@
-# Directory Theme
+# Directory Listing Theme
 A simple, customizable theme for your **Apache** or **nginx** directory listing.
 Here is a demo of what the result looks like: [gif library](http://gifs.jessfraz.com).
 
