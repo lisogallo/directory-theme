@@ -5,16 +5,16 @@
 	padding:0;
 	-webkit-box-sizing:border-box;
 	   -moz-box-sizing:border-box;
-	       box-sizing: border-box; 
+	       box-sizing: border-box;
 }
 
 html {
 	min-height:100%;
 	border-top:10px solid #ECEEF1;
 	border-bottom:10px solid #ECEEF1;
-	color:#61666c;
+	color:#000;
 	font-weight:300;
-	font-size:1em;
+	font-size: 18px;
 	font-family:'Open Sans', sans-serif;
 	line-height:2em;
 }
@@ -23,14 +23,19 @@ body {
 	-webkit-backface-visibility:hidden;
 }
 code {
-	font-family:Inconsolata,monospace;	
+	font-family:Inconsolata,monospace;
 }
 a {
-	color:#61666c;
+	color:#000;
 	text-decoration:none;
 }
 a:hover {
 	color:#2a2a2a;
+}
+
+.fa-2x {
+    font-size: 1.5em !important;
+	color: #bbb;
 }
 /*------------------------------------*\
     Wrapper
@@ -91,7 +96,7 @@ input {
 	-moz-transition: border linear .2s, box-shadow linear .2s;
 	-o-transition: border linear .2s, box-shadow linear .2s;
 	transition: border linear .2s, box-shadow linear .2s;
-	background: url('search.svg') no-repeat 211px center;
+	/*background: url('search.svg') no-repeat 211px center;*/
     background-size:auto 20px;
 }
 
@@ -145,7 +150,7 @@ a.clear, a.clear:link, a.clear:visited {
 }
 a.clear:hover {
 	text-decoration: none;
-	color:#333;
+	color:#000;
 	cursor: pointer;
 }
 /*------------------------------------*\
@@ -166,7 +171,7 @@ tr:hover td {
 }
 th {
 	text-align:left;
-	font-size:.75em;
+	/*font-size:.75em;*/
 	padding-right:20px;
 }
 /* 2nd Column: Filename */
@@ -221,5 +226,6 @@ tr.parent a {
 img {
 	outline:none;
 	border:none;
-    max-height:16px;
+    /*max-height:16px;*/
+    max-height:22px;
 }
